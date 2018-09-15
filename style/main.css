@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+  .nav{
+      background-color: #263238;
+      overflow: hidden;
+
+    
+  }
+  
+
+  .nav ul li.right {float: right;}
+ 
+  
+  .nav ul li {
+      list-style: none;
+        float: right;
+        text-transform: uppercase;
+        margin: 5px;
+        padding: 5px;
+        color:white;
+        font-family: Open Sans;
+        font-weight: bold;
+    }
+    .nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    .brand {
+        float:left;
+        color: white;
+        margin-right:15px;
+        padding: 5px;
+        margin-left:5px;
+    }
+   ul  :hover{
+        background-color:#181f23;
+        transition: 1s;
+    }
+    @media screen and (max-width: 600px){
+       .nav ul li {
+           float: none;
+          
+        }
+        .nav{
+            text-align: center;
+        }
+       .nav ul li.right {
+            float: none;
+        }
+        .brand{
+            float: none;
+        }
+    
+    }
